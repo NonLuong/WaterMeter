@@ -10,7 +10,7 @@ type WaterMeterValue struct {
 	gorm.Model
 	MeterValue      int
 	Timestamp       time.Time
-	ModelConfidence float64 `json:"OCRConfidence"`
+	ModelConfidence float64 `json:"ModelConfidence"`
 	Note            string
 	ImagePath       string
 
